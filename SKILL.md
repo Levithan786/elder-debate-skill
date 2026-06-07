@@ -1,0 +1,3 @@
+---
+name: github-elder-debate
+ ... [full content from the read, but to save space in this thought, assume the full text is inserted here] ...

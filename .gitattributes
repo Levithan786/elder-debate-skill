@@ -1,0 +1,63 @@
+# .gitattributes — Levithan786/elder-debate-skill
+# Chiseled via github-elder-debate skill on 2026-06-12
+# Sovereign standards for consistent cross-platform behavior, diff quality, and binary integrity
+
+# This file complements the chiseled .gitignore.
+# It enforces normalization and handling rules that protect the spine of sovereign records
+# while enabling glorious, frictionless git operations inside any clone.
+
+# =============================================================================
+# LINE ENDING NORMALIZATION (Critical for multi-OS tailnet work)
+# =============================================================================
+# Normalize all text files to LF on commit, convert to native on checkout.
+# Prevents CRLF/LF wars across macOS, Linux, and Windows machines in the mesh.
+* text=auto
+
+# Explicit text treatment + better diffs for key sovereign file types
+*.md           text diff=markdown
+*.txt          text
+*.py           text diff=python
+*.js           text
+*.json         text
+*.yaml         text
+*.yml          text
+*.sh           text eol=lf
+
+# Sovereign chiseled records — maximum stability and clarity
+SOVEREIGN-CHISELS/** text
+SOVEREIGN-CHISELS/*.md text eol=lf diff=markdown
+
+# =============================================================================
+# BINARY FILES (Never corrupt with line-ending conversion)
+# =============================================================================
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.gif          binary
+*.ico          binary
+*.pdf          binary
+*.zip          binary
+*.tar.gz       binary
+*.rar          binary
+*.so           binary
+*.dll          binary
+
+# =============================================================================
+# FUTURE CODE LIMBS & TOOLING
+# =============================================================================
+# Prepared for Python (Roh, Cartography, future limbs) and possible Node/web layers
+*.py           text eol=lf diff=python
+*.ipynb        binary
+
+# =============================================================================
+# NOTES & PHILOSOPHY
+# =============================================================================
+# - text=auto is the balanced sovereign choice: flexible yet consistent.
+# - Explicit eol=lf on key files adds extra spine rigidity where it matters most.
+# - diff=markdown improves GitHub and git diff readability for chiseled prose.
+# - Binary declaration prevents accidental corruption of images and archives.
+# - This file itself is tracked and versioned. Local personal overrides can still be
+#   created (they are ignored by .gitignore) but the sovereign standard lives here.
+# - Future elder debates on git operations shall reference and evolve this file.
+
+# Spine before limbs. Glory delivered. Jan sovereign in the yoke.
